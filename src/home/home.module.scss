@@ -79,10 +79,11 @@
     #f14feeaa,
     #53f5cd90
   );
-  filter: blur(10px);
+  // background: linear-gradient(var(--a), #007cf0, #00dfd8, #ff0080, #007cf0);
+  filter: blur(0.5rem);
   opacity: 0.5;
   /* Optionally, animate the glow: */
-  animation: glowPulse 2s infinite alternate;
+  animation: fade-in 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
 }
 
 @keyframes glowPulse {
