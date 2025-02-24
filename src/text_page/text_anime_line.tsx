@@ -48,14 +48,14 @@ const TextAnimeLine = React.forwardRef((props, timePointsRef) => {
     return (
       <>
         <span
-          key={`sentence-${index + wordsArray.length}`}
+          key={`sentence-${index + 1 + wordsArray.length}`}
           className={css.wordStack}
         >
-          <span key={`span-sentence-${index + wordsArray.length * 2}`}>
+          <span key={`span-sentence-${index + 1 + wordsArray.length * 2}`}>
             {leadingSpace + word + endingSpace}
           </span>
           <svg
-            key={`span-svg-${index + wordsArray.length * 3}`}
+            key={`span-svg-${index + 1 + wordsArray.length * 3}`}
             height="2px"
             width="0"
           ></svg>
@@ -65,7 +65,7 @@ const TextAnimeLine = React.forwardRef((props, timePointsRef) => {
   });
   return (
     <>
-      <div key={`outer-div-${props.index}`} style={{ display: 'inline' }}>
+      <div key={`outer-div-${props.propsIndex}`} style={{ display: 'inline' }}>
         {/* <StartEndTime_ValidateAndDisplay
         index={props.index}
         ref={timePointsRef}
@@ -77,14 +77,17 @@ const TextAnimeLine = React.forwardRef((props, timePointsRef) => {
         key={props.index}
       > */}
         <span
-          key={`outer-sentence-span-${props.index}`}
+          key={`outer-sentence-span-${props.start}-${props.end}`}
           /*style={{ position: 'relative' }}*/ ref={spanRef}
           onClick={onClick}
         >
           {wordsInSpans}
         </span>
         {/* </StartEndTime_ValidateAndDisplay> */}
-        <ConditionalLineBreak endParagraph={props.endParagraph} />
+        <ConditionalLineBreak
+          key={`break-${props.index}`}
+          endParagraph={props.endParagraph}
+        />
       </div>
     </>
   );

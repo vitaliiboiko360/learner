@@ -1,8 +1,8 @@
 import React from 'react';
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
 
-import TextParagraph from './text_paragraph.tsx'
-import TextAnimeLine from './text_anime_line.tsx'
+import TextParagraph from './text_paragraph.tsx';
+import TextAnimeLine from './text_anime_line.tsx';
 import store from '../store/store.ts';
 import css from './text_page.module.scss';
 
@@ -10,7 +10,7 @@ const ClickLines = React.forwardRef((props, refArrayAudioTimeTextSync) => {
   let lineArray = props.lines;
 
   let timePoints = lineArray.map((textEntry) => {
-    return { start: textEntry.start, end: textEntry.end }
+    return { start: textEntry.start, end: textEntry.end };
   });
 
   React.useEffect(() => {
@@ -24,35 +24,39 @@ const ClickLines = React.forwardRef((props, refArrayAudioTimeTextSync) => {
         ? refArrayAudioTimeTextSync.current.at(index).start
         : refArrayAudioTimeTextSync.current.at(index).end;
     return propsValue;
-  }
+  };
 
   let textLines = lineArray.map((textEntry, index) => {
-    return (<React.Fragment key={index}>
-      <TextAnimeLine
-        onClick={props.onClick}
-        text={textEntry.text}
-        index={index}
-        endParagraph={textEntry.endParagraph}
-        start={getValue(props.index, textEntry.start, true)}
-        end={getValue(props.index, textEntry.end, false)}
-        totalTime={props.totalTime}
-        ref={refArrayAudioTimeTextSync}
-      />
-    </React.Fragment>);
+    return (
+      <React.Fragment key={`line-${index}`}>
+        <TextAnimeLine
+          key={`text-animated-line-${index}`}
+          onClick={props.onClick}
+          text={textEntry.text}
+          index={index}
+          propsIndex={props.index}
+          endParagraph={textEntry.endParagraph}
+          start={getValue(props.index, textEntry.start, true)}
+          end={getValue(props.index, textEntry.end, false)}
+          totalTime={props.totalTime}
+          ref={refArrayAudioTimeTextSync}
+        />
+      </React.Fragment>
+    );
   });
 
-  return (<>
-    <Provider store={store}>
-      <div className={css.textPage}>
-        <div className={css.center}>
-          <h2 className={css.title}>
-            {textLines[0]}
-          </h2>
+  return (
+    <>
+      <Provider store={store}>
+        <div className={css.textPage}>
+          <div className={css.center}>
+            <h2 className={css.title}>{textLines[0]}</h2>
+          </div>
+          <div>{textLines.slice(1)}</div>
         </div>
-        <div>{textLines.slice(1)}</div>
-      </div>
-    </Provider>
-  </>);
+      </Provider>
+    </>
+  );
 });
 
 export default ClickLines;
