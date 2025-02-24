@@ -46,7 +46,7 @@ const TextAnimeLine = React.forwardRef((props, timePointsRef) => {
     let leadingSpace = index > 0 ? ' ' : '';
     let endingSpace = index == wordsArray.length - 1 ? ' ' : '';
     return (
-      <>
+      <React.Fragment key={`words-span-array-${index}`}>
         <span
           key={`sentence-${index + 1 + wordsArray.length}`}
           className={css.wordStack}
@@ -60,7 +60,7 @@ const TextAnimeLine = React.forwardRef((props, timePointsRef) => {
             width="0"
           ></svg>
         </span>
-      </>
+      </React.Fragment>
     );
   });
   return (

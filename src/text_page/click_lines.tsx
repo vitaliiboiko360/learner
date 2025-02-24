@@ -30,11 +30,10 @@ const ClickLines = React.forwardRef((props, refArrayAudioTimeTextSync) => {
     return (
       <React.Fragment key={`line-${index}`}>
         <TextAnimeLine
-          key={`text-animated-line-${index}`}
+          key={`text-${index + 1}`}
           onClick={props.onClick}
           text={textEntry.text}
           index={index}
-          propsIndex={props.index}
           endParagraph={textEntry.endParagraph}
           start={getValue(props.index, textEntry.start, true)}
           end={getValue(props.index, textEntry.end, false)}
