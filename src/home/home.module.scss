@@ -17,6 +17,83 @@
   max-width: 1040px;
 }
 
+.glowingDiv {
+  // width: 150px;
+  // height: 150px;
+  // display: block;
+  border-radius: 8px;
+  position: relative;
+  background: #fff;
+  // animation: glowPulse 2s infinite alternate;
+}
+
+.angle1 {
+  --a: 10deg;
+}
+
+.angle2 {
+  --a: 55deg;
+}
+
+.angle3 {
+  --a: 115deg;
+}
+
+.angle4 {
+  --a: 165deg;
+}
+
+.angle5 {
+  --a: 195deg;
+}
+
+.angle6 {
+  --a: 245deg;
+}
+
+.angle7 {
+  --a: 305deg;
+}
+
+.angle8 {
+  --a: 355deg;
+}
+
+.glowingDiv::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  transition: --a 0.5s;
+  background: linear-gradient(
+    var(--a),
+    #d1222278,
+    #e77b10b1,
+    #a550e790,
+    #47e972be,
+    #2e3ef0b8,
+    #f14feeaa,
+    #53f5cd90
+  );
+  filter: blur(10px);
+  opacity: 0.5;
+  /* Optionally, animate the glow: */
+  animation: glowPulse 2s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+}
+
 .list {
   .row {
     display: grid;
