@@ -1,0 +1,65 @@
+@use '../mixins';
+
+.page {
+  @include mixins.pageTextFlex;
+}
+
+.content {
+  //flex-grow: 1;
+}
+
+.container {
+  @include mixins.container;
+  height: 100vh;
+}
+
+.nums {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  display: flex;
+}
+
+.controlTopPanel {
+  display: flex;
+  flex-direction: row;
+
+  div:last-child {
+    margin-left: auto;
+  }
+}
+
+.bottomLineOuterDiv {
+  text-align: center;
+}
+
+.bottomLine {
+  border-radius: 12px;
+  box-sizing: content-box;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  touch-action: none;
+  color: #1976d2;
+  -webkit-tap-highlight-color: transparent;
+  height: 4px;
+  width: 61%;
+  padding: 13px 0;
+
+  span {
+    display: block;
+    position: absolute;
+    border-radius: inherit;
+    background-color: currentColor;
+    opacity: 0.38;
+    width: 100%;
+    height: inherit;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,80 @@
+@use '../mixins';
+
+.page {
+  @include mixins.pageTextFlex;
+}
+
+.content {
+  flex-grow: 1;
+}
+.title {
+  @include mixins.title;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  @include mixins.container;
+  max-width: 1040px;
+}
+
+.list {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    @media (max-width: 767px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .item {
+      display: flex;
+      // min-height: 20rem;
+      // @media (max-width: 767px) {
+      //   min-height: 14rem;
+      // }
+      // @media (max-width: 479px) {
+      //   min-height: 12rem;
+      // }
+      .link {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 1rem;
+        padding: 2.5rem;
+        border: 1px solid var(--greyLight);
+        color: #0c3273;
+        text-decoration: inherit;
+        &:hover {
+          border-color: var(--grey);
+        }
+        @media (max-width: 767px) {
+          padding: 1rem 1.5rem 1.5rem 1rem;
+        }
+
+        .title {
+          font-family: 'Merriweather';
+          font-size: 1.2rem;
+          text-align: center;
+          margin-bottom: 0.5rem;
+        }
+        .image {
+          display: flex;
+          align-items: flex-end;
+          margin-left: auto;
+          width: 50%;
+          img {
+            display: block;
+            max-width: 100%;
+            // height: 8rem;
+            // @media (max-width: 767px) {
+            //   height: 5em;
+            // }
+            // @media (max-width: 479px) {
+            //   height: 4em;
+            // }
+          }
+        }
+      }
+    }
+  }
+}

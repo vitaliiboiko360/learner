@@ -1,0 +1,88 @@
+@use '../mixins';
+
+.center {
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.title {
+  @include mixins.title;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.textPage {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5em;
+  padding: 0 0.7em 1rem;
+  text-shadow: 0.05em 0.05em #c3c3c3;
+}
+
+.sub {
+  font-size: 0.6em;
+  padding-left: 3px;
+  padding-right: 4px px;
+  margin-left: 2px;
+  margin-right: 2px;
+
+  &.start {
+    background-color: rgb(1, 244, 207);
+  }
+
+  &.end {
+    background-color: coral;
+  }
+
+  &.unassigned {
+    background-color: rgb(188, 183, 181);
+  }
+
+  &.invalid {
+    font-size: 0.6em;
+    background-color: rgb(255, 240, 242);
+    margin: 7px;
+    border: none;
+    outline: 7px solid red;
+    border-radius: 5px;
+  }
+}
+
+.textLine {
+  font-size: 1.6rem;
+}
+
+.textAnimeLine {
+  text-decoration: none;
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 0% 1em, 0 0.2em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  text-underline-offset: 0.1em;
+  padding-bottom: 0.4em;
+}
+
+.wordStack {
+  font-size: 1.6em;
+  display: inline-flex;
+  white-space: pre-wrap;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    display: inline;
+  }
+}

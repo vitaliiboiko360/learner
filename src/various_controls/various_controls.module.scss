@@ -1,0 +1,43 @@
+@use '../mixins';
+
+.backHome {
+  @include mixins.button;
+
+  & > span {
+    align-items: center;
+    white-space: nowrap;
+  }
+}
+
+.changeSpeed {
+  @include mixins.button;
+  transition: all 0.1s linear;
+
+  & > span {
+    align-items: center;
+  }
+
+  svg {
+    margin-left: 0.5rem;
+  }
+
+  .changeSpeedcontainer {
+    overflow: hidden;
+    li {
+      text-align: center;
+      justify-content: center;
+      display: inline;
+      padding: 0 0.5rem;
+      border: 1px solid transparent;
+    }
+  }
+  ul {
+    margin: 0rem;
+    padding: 0rem;
+    transition: all 0.1s linear;
+  }
+}
+
+.buttonSubmitTimeSyncToServer {
+  @include mixins.button;
+}
