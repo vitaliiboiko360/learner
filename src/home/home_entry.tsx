@@ -8,18 +8,16 @@ export default function HomeEntry({ element, height }) {
   const href = makeUrlToResource(element.resource);
   const { title, artwork } = element;
 
-  const gradients = [
-    css.gradient1,
-    css.gradient2,
-    css.gradient3,
-    css.gradient4,
+  const angles = [
+    css.angle1,
+    css.angle2,
+    css.angle3,
+    css.angle4,
+    css.angle5,
+    css.angle6,
+    css.angle7,
+    css.angle8,
   ];
-
-  const getRandGradient = () => {
-    return gradients[Math.floor(Math.random() * gradients.length)];
-  };
-
-  const angles = [css.angle1, css.angle2, css.angle3, css.angle4];
 
   return (
     <div style={{ height }} className={css.item}>
