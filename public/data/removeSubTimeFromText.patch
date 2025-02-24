@@ -1,0 +1,32 @@
+diff --git a/src/text_page/text_anime_line.tsx b/src/text_page/text_anime_line.tsx
+index c353255..b7af7f2 100644
+--- a/src/text_page/text_anime_line.tsx
++++ b/src/text_page/text_anime_line.tsx
+@@ -2,7 +2,6 @@ import React from 'react';
+ 
+ import { useAppDispatch, useAppSelector } from '../store/hooks.ts'
+ import { selectActiveIndex, setActiveIndexAction } from '../store/activeIndexSlice.ts';
+-import StartEndTime_ValidateAndDisplay from './start_end_time/start_end_time_validate_and_display.tsx'
+ import ConditionalLineBreak from './conditional_line_break.tsx'
+ import css from './text_page.module.scss'
+ 
+@@ -50,18 +49,7 @@ const TextAnimeLine = React.forwardRef((props, timePointsRef) => {
+   });
+   return (<>
+     <div key={props.index} style={{ display: 'inline' }}>
+-      <StartEndTime_ValidateAndDisplay
+-        index={props.index}
+-        ref={timePointsRef}
+-        start={props.start}
+-        end={props.end}
+-        totalTime={props.totalTime}
+-        updateStart={setStart}
+-        updateEnd={setEnd}
+-        key={props.index}
+-      >
+-        <span key={props.index} /*style={{ position: 'relative' }}*/ ref={spanRef} onClick={onClick}>{wordsInSpans}</span>
+-      </StartEndTime_ValidateAndDisplay>
++      <span key={props.index} /*style={{ position: 'relative' }}*/ ref={spanRef} onClick={onClick}>{wordsInSpans}&nbsp;&nbsp;</span>
+       <ConditionalLineBreak endParagraph={props.endParagraph} />
+     </div >
+   </>);

@@ -1,0 +1,102 @@
+{
+  "audio": "quiero_aprender_espanol.mp3",
+  "lines": [
+    {
+      "text": "Quiero aprender español",
+      "start": 0,
+      "end": 2.5
+    },
+    {
+      "text": "Aprender idiomas es muy importante.",
+      "start": 3,
+      "end": 6.2
+    },
+    {
+      "text": "Es útil para encontrar un buen trabajo, para viajar por el mundo y para muchas cosas más.",
+      "start": 6.5,
+      "end": 14.5
+    },
+    {
+      "text": "Yo ahora tengo un objetivo: quiero hablar español bien.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Quiero ir de vacaciones al norte de España.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Para lograr mi objetivo, estudio tres días por semana: los lunes, miércoles y viernes.",
+      "start": 0,
+      "end": 0,
+      "endParagraph": true
+    },
+    {
+      "text": "Mis amigos dicen que aprender idiomas es difícil.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Mi opinión es otra.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "La motivación es lo más importante.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Cuando estudias español, algunas cosas son fáciles y otras son difíciles.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "¿Sabes usar las preposiciones? ¿Entiendes el tiempo pasado? ¿Puedes hacer una frase larga con tres verbos? Todas estas cosas son difíciles al principio.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Pero si tienes motivación, todo es sencillo.",
+      "start": 0,
+      "end": 0,
+      "endParagraph": true
+    },
+    {
+      "text": "Ahora, además de estudiar español por la noche, también estudio durante el día.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Es decir, escucho música en español a todas horas.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Gracias a esto, todos los días aprendo palabras nuevas.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Además, escribo estas palabras en un cuaderno.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Todas las noches, leo el cuaderno en la cama.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Y a veces, sueño en español.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Esto significa que estudio español 24 horas al día.",
+      "start": 0,
+      "end": 0
+    }
+  ]
+}

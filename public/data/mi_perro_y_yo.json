@@ -1,0 +1,127 @@
+{
+  "audio": "mi_perro_y_yo.mp3",
+  "lines": [
+    {
+      "text": "Mi perro y yo.",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Mi perro se llama Tom.",
+      "start": 2,
+      "end": 4
+    },
+    {
+      "text": "Tiene 3 años y es mi mejor amigo.",
+      "start": 4.3,
+      "end": 8
+    },
+    {
+      "text": "Es un San Bernardo precioso, muy grande y con un pelo muy brillante.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Tom siempre está feliz.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Pero por las mañanas, yo me voy a trabajar y Tom llora un poco.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "No quiere estar solo.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Yo también estoy un poco triste, pero Tom no puede ir a trabajar conmigo.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Mi jefe es alérgico a los perros.",
+      "start": 0,
+      "end": 0,
+      "endParagraph": true
+    },
+    {
+      "text": "Tom siempre quiere jugar en el jardín.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Todos los días llego a casa a las 6 de la tarde.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Tom me ve y ladra porque quiere jugar.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Pero yo a veces estoy cansado porque trabajo mucho.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Entonces, Tom no dice nada.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Se sienta en el sofá conmigo y vemos la televisión.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Tom es muy inteligente y tiene un gran corazón.",
+      "start": 0,
+      "end": 0,
+      "endParagraph": true
+    },
+    {
+      "text": "Por la noche vemos juntos la televisión.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "A Tom le gustan las películas de acción.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "A veces, una escena le gusta mucho y empieza a ladrar sin parar.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Tom puede ladrar durante casi media hora.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Entonces, mi vecino viene y dice “¡No puedo dormir! ¡Quiero dormir!”.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Yo digo “Lo siento.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Ahora mismo apago la televisión”.",
+      "start": 0,
+      "end": 0
+    },
+    {
+      "text": "Mi pobre vecino tiene mucha paciencia.",
+      "start": 0,
+      "end": 0
+    }
+  ]
+}

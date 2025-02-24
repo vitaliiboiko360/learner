@@ -1,0 +1,75 @@
+{
+  "lenght": 10,
+  "texts": [
+    {
+      "title": "Me gusta leer",
+      "resource": "me_gusta_leer",
+      "artwork": "u1f937_u1f4da"
+    },
+    {
+      "title": "Mike tiene un perro",
+      "resource": "mike_tiene_un_perro",
+      "artwork": "u1f436_u1f410"
+    },
+    {
+      "title": "José compra una bicicleta",
+      "resource": "jose_compra_una_bisicleta",
+      "artwork": "u1f31f_u1f6b2"
+    },
+    {
+      "title": "Mi perro y yo",
+      "resource": "mi_perro_y_yo",
+      "artwork": "u1f436_u1f436"
+    },
+    {
+      "title": "Quiero aprender español",
+      "resource": "quiero_aprender_espanol",
+      "artwork": "1f1ea_1f1f8"
+    },
+    {
+      "title": "Contar ovejas",
+      "resource": "contar_ovejas",
+      "artwork": "ewe_1f411"
+    },
+    {
+      "title": "Una vida dulce",
+      "resource": "una_vida_dulce",
+      "artwork": "u1fa84_u1f370"
+    },
+    {
+      "title": "¿Te gusta la televisión?",
+      "resource": "te_gusta_la_television",
+      "artwork": "u1f618_u1f4fa"
+    },
+    {
+      "title": "Mi nueva casa",
+      "resource": "mi_nueva_casa",
+      "artwork": "1f3e1"
+    },
+    {
+      "title": "Una vida nueva",
+      "resource": "una_vida_nueva_esta_es_la_historia_de_mi_1",
+      "artwork": "1f3e1_1"
+    },
+    {
+      "title": "Una vida nueva",
+      "resource": "una_vida_nueva_esta_es_la_historia_de_mi_2",
+      "artwork": "1f3e1_2"
+    },
+    {
+      "title": "Una vida nueva",
+      "resource": "una_vida_nueva_esta_es_la_historia_de_mi_3",
+      "artwork": "1f3e1_3"
+    },
+    {
+      "title": "Una vida nueva",
+      "resource": "una_vida_nueva_esta_es_la_historia_de_mi_4",
+      "artwork": "1f3e1_3"
+    },
+    {
+      "title": "Una vida nueva",
+      "resource": "una_vida_nueva_esta_es_la_historia_de_mi_5",
+      "artwork": "1f3e1_3"
+    }
+  ]
+}

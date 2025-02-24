@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Érase una vez que había una mamá cerda que tenía tres cerdito.",
+    "start": 13,
+    "end": 20
+  },
+  {
+    "text": "Ella los amaba mucho, pero no había suficiente comida para alimentarlos, así que los cerditos tuvieron que ir a buscar su suerte.",
+    "start": 21,
+    "end": 36
+  },
+  {
+    "text": "El primer cerdito decidió ir al su.",
+    "start": 37,
+    "end": 42
+  },
+  {
+    "text": "Encontró a un granjero en el camino que estaba llevando un atado de paja.",
+    "start": 43,
+    "end": 51
+  },
+  {
+    "text": "El cerdito preguntó respetuosamente: \"¿Podría por favor darme esa paja, para que yo pueda construir una casa?\"",
+    "start": 52,
+    "end": 65
+  },
+  {
+    "text": "Como el cerdito dijo \"por favor\", el granjero le dio la paja y el cerdito construyó una bella casa.",
+    "start": 66,
+    "end": 77
+  },
+  {
+    "text": "La casa tenía paredes hechas de paja, un piso hecho de paja, y adentro... una cómoda cama hecha de paja.",
+    "start": 78,
+    "end": 92
+  },
+  {
+    "text": "Después de construir la casa, el cerdito decidió tomar una siesta en su cama hecha de paja.",
+    "start": 93,
+    "end": 104
+  },
+  {
+    "text": "De pronto, el gran lobo malo llegó y olió al cerdito dentro de la casa, y su boca comenzó a hacerse agua.",
+    "start": 104,
+    "end": 119
+  },
+  {
+    "text": "¡Mmmmm... emparedados de tocino!\"",
+    "start": 120,
+    "end": 125
+  },
+  {
+    "text": "Así que el lobo tocó la puerta de la casa hecha de paja y dijo: \"¡Cerdito! ¡Cerdito! ¡Abre la puerta!\"",
+    "start": 126,
+    "end": 141
+  }
+]
