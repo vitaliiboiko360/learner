@@ -20,6 +20,9 @@ export default function Home() {
       <div className={css.container}>
         <h1 className={css.title}>Spanish Learner</h1>
       </div>
+      <div className={css.lessonSubHead}>
+        <h3>Lessons:</h3>
+      </div>
       <div className={css.content}>
         <div className={css.container}>
           <div className={css.list}>
